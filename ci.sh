@@ -1,7 +1,6 @@
 #!/bin/bash
 
 npm install
-npm dedupe
 
 if [[ -n "$UNDERSCORE" ]]
 then

@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "browserify": "^13.0.0",
-    "buildify": "latest",
     "chai": "^3.4.1",
     "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
@@ -36,5 +35,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:kahwee/backbone-deep-model.git"
-  }
+  },
+  "license": "MIT"
 }
