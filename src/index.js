@@ -9,6 +9,7 @@ try {
 	var Backbone = window.Backbone;
 }
 var merge = require('lodash.merge');
+var cloneDeep = require('lodash.clonedeep');
 
 /**
  * Takes a nested object and returns a shallow object keyed with the path names
@@ -137,7 +138,7 @@ var DeepModel = Backbone.Model.extend({
 		this.attributes = {};
 		if (options && options.collection) this.collection = options.collection;
 		if (options && options.parse) attrs = this.parse(attrs, options) || {};
-    attrs = merge({}, _.result(this, 'defaults'), attrs);
+    attrs = merge({}, cloneDeep(_.result(this, 'defaults')), attrs);
 		this.set(attrs, options);
 		this.changed = {};
 		this.initialize.apply(this, arguments);
