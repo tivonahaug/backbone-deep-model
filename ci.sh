@@ -25,6 +25,7 @@ then
 		rm -Rf node_modules/underscore
 		cp -Rf node_modules/lodash node_modules/undescore
 	else
+		ls node_modules
 		#mv node_modules/lodash/index.js node_modules/underscore/underscore.js
 	fi
 fi
