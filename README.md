@@ -1,6 +1,9 @@
 ## backbone-deep-model
 
-[![Build Status](https://travis-ci.org/kahwee/backbone-deep-model.svg?branch=master)](https://travis-ci.org/kahwee/backbone-deep-model) [![Coverage Status](https://coveralls.io/repos/kahwee/backbone-deep-model/badge.svg?branch=master)](https://coveralls.io/r/kahwee/backbone-deep-model?branch=master) [![Code Climate](https://codeclimate.com/github/kahwee/backbone-deep-model/badges/gpa.svg)](https://codeclimate.com/github/kahwee/backbone-deep-model)
+[![Build Status](https://travis-ci.org/kahwee/backbone-deep-model.svg?branch=master)](https://travis-ci.org/kahwee/backbone-deep-model)
+[![Coverage Status](https://coveralls.io/repos/kahwee/backbone-deep-model/badge.svg?branch=master)](https://coveralls.io/r/kahwee/backbone-deep-model?branch=master)
+[![Code Climate](https://codeclimate.com/github/kahwee/backbone-deep-model/badges/gpa.svg)](https://codeclimate.com/github/kahwee/backbone-deep-model)
+[![npm version](https://badge.fury.io/js/%40kahwee%2Fbackbone-deep-model.svg)](https://badge.fury.io/js/%40kahwee%2Fbackbone-deep-model)
 
 Forked from https://github.com/powmedia/backbone-deep-model (Thanks for the wonderful work @powmedia!)
 
@@ -16,7 +19,7 @@ Dependencies
 ============
 
 * Backbone >= 1.0.0
-* Underscore >= 1.4.4 or Lodash v2.4.x or Lodash v3.x.x
+* Underscore >= 1.4.4 or Lodash v2.4.x and above
 
 Installation
 ============
