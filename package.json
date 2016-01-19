@@ -1,6 +1,6 @@
 {
-  "name": "backbone-deep-model",
-  "version": "2.0.1",
+  "name": "@kahwee/backbone-deep-model",
+  "version": "2.0.2",
   "description": "Improved support for models with nested attributes.",
   "author": {
     "name": "Charles Davison"
