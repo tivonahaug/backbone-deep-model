@@ -20,7 +20,6 @@ matrix:
     # - env: LODASH=3.10 BACKBONE=1.2
     # - env: LODASH=4 BACKBONE=1.2
 install:
-  - npm up -g npm
   - ./ci.sh
 after_success:
   - npm run-script coverage
